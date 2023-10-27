@@ -33,7 +33,20 @@ input[type="password"] {
     font-size: 3rem;
 }
 
+/*seletor de descendentes*/
+
 .login form {
     font-size: 2rem;
     color: #f00;
+}
+
+/*seletor de filhos diretos*/
+.login-form > input {
+    color: #0f0;
+    width: 10rem;
+}
+
+/*pseudo-classes*/
+.cadastro-form div:nth-of-type(2) {
+    background: #00f;
 }
